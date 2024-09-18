@@ -1,7 +1,4 @@
-from US_Visa.logger import logging
-from US_Visa.exception import USvisaException
-import sys
+from US_Visa.pipline.training_pipeline import TrainPipeline
 
-
-print("My first log")
-
+obj = TrainPipeline()
+obj.run_pipeline()
